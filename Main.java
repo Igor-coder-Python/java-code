@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.InputStream;
 public class Main {
     public static void main(String[] args) throws IOException, DbxException, AWTException {
-        String ACCESS_TOKEN = "sl.AyXbx_isMPvWWqRPf2-BMqQsqUjFw_w0NozuDm3qJOEgOGIRO2jcM3t5yl6bbCdUzLhDowQ39ifJtIrs2knMf2GjMArsQIUPafGUl2yw51bGhd0g2Kv2UwFC1ga3CyB5nMfsQEs";
+        String ACCESS_TOKEN = /*your dropbox token*/;
 
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
         DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
